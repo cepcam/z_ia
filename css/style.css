@@ -1,0 +1,36 @@
+body{
+  background-color: #AAA;
+	margin:50px 0px; padding:0px;
+	text-align:center;  
+}
+header{
+  width: 1200px;
+}
+#mapCanvas{
+  width:1200px;
+  height: 675px;
+}
+
+#infoPanel
+{
+  width:1200px;    
+}
+#setupPanel
+{
+  width:1200px;    
+}
+.centered{
+
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	border:1px dashed #333;
+	background-color:#eee;
+}
+
+.button
+{
+  background-color: #888;
+  border: solid 1px #333;
+  width: 20%;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <title>Zombie sur la Villle</title>  
+        <meta charset="utf-8">  
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>  
+        
+        <script src="./js/lib/vector.js"></script>
+        <script src="./js/main.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>  
+    <body>  
+        <header class="centered">
+        <h1>Zombies boids</h1>
+        <p>Click to set target</p>
+        <p>Zombies count will tune according to your CPU</p>
+        <p>You can set expected FPS with buttons below canvas</p>
+        </header>
+        <canvas id="mapCanvas" class="centered" width="1200" height="675">  
+            <!-- Insert fallback content here -->  
+        </canvas> 
+        
+        <div id="infoPanel" class="centered">
+          <p id="fpsValue"></p>
+          <p id="zombiesValue"></p>  
+          <p id="fpsExpected"></p>                                
+        </div> 
+
+        <div id="setupPanel" class="centered">
+          <p id="fpsUP" class="button">More FPS, Less zombies !!!</p>
+          <p id="fpsDOWN" class="button">Less FPS, More  zombies !!!</p>          
+                               
+        </div>         
+    </body>  
+</html>  
